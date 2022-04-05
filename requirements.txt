@@ -1,0 +1,9 @@
+streamlit==0.89.0
+numpy==1.19.5
+pandas
+sklearn
+matplotlib
+tensorflow-cpu
+joblib
+lime
+seaborn
