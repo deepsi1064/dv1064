@@ -8,15 +8,15 @@ import numpy as np
 
 # Utilities
 import os
-#import joblib 
+import joblib 
 import hashlib
 # passlib,bcrypt
 
 # Data Viz Pkgs
-#import matplotlib.pyplot as plt 
-#import matplotlib
-#matplotlib.use('Agg')
-#import seaborn as sns
+import matplotlib.pyplot as plt 
+import matplotlib
+matplotlib.use('Agg')
+import seaborn as sns
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
@@ -63,7 +63,7 @@ def load_model(model_file):
 
 
 # ML Interpretation
-#import lime
+import lime
 import lime.lime_tabular
 
 
