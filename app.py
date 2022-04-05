@@ -8,7 +8,7 @@ import numpy as np
 
 # Utilities
 import os
-import joblib 
+from sklearn.externals import joblib
 import hashlib
 # passlib,bcrypt
 
