@@ -16,7 +16,7 @@ import hashlib
 #import matplotlib.pyplot as plt 
 #import matplotlib
 #matplotlib.use('Agg')
-import seaborn as sns
+#import seaborn as sns
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
