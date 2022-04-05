@@ -15,7 +15,7 @@ import hashlib
 # Data Viz Pkgs
 #import matplotlib.pyplot as plt 
 #import matplotlib
-matplotlib.use('Agg')
+#matplotlib.use('Agg')
 import seaborn as sns
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
