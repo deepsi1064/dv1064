@@ -13,8 +13,8 @@ import hashlib
 # passlib,bcrypt
 
 # Data Viz Pkgs
-import matplotlib.pyplot as plt 
-import matplotlib
+#import matplotlib.pyplot as plt 
+#import matplotlib
 matplotlib.use('Agg')
 import seaborn as sns
 
