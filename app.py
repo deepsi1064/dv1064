@@ -286,10 +286,10 @@ def main():
 
 
 	elif choice == "Signup":
-		new_username = st.text_input("User name")
-		new_password = st.text_input("Password",type='password')
+		new_username = st.sidebar.text_input("User name")
+		new_password = st.sidebar.text_input("Password",type='password')
 
-		confirm_password = st.text_input("Confirm Password",type='password')
+		confirm_password = st.sidebar.text_input("Confirm Password",type='password')
 		if new_password == confirm_password:
 			st.success("Password Confirmed")
 		else:
