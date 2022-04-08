@@ -156,7 +156,7 @@ def main():
 		username = st.sidebar.text_input("Username")
 		password = st.sidebar.text_input("Password",type='password')
 		if st.sidebar.checkbox("Login"):
-			if password == "12345":
+			if password == "12345" and username="user":
 				st.success("Welcome {}".format(username))
 
 				activity = st.selectbox("Activity",submenu)
